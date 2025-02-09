@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-image: url(pexels-sash2s-16902140.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#clock{
+    font-family: monospace;
+    color: whitesmoke;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(1px);
+    background-color: hsl(0, 0%, 100%, 10%);
+}
